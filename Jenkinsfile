@@ -7,6 +7,9 @@ node {
     dir ('foo'){
         deleteDir()
     }
+    sh 'mv test-1'
+    sh 'ls'
+    sh 'rm sample1'
      sh 'ls -l'
    
 }
