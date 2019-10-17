@@ -9,9 +9,9 @@ node
     sh 'ls'
        sh 'rm -rf sample1'
        
-       sh 'cd /home/pulse-02/'
-       sh 'mv users.json'
-       sh 'cd /home/pulse-02/Desktop/'
+       sh 'cd /home/pulse-02/ mv users.json cd /home/pulse-02/Desktop/'
+       
+       
        
 
     } 
