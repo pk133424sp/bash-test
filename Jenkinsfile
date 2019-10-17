@@ -8,7 +8,7 @@ node
        bat 'echo /home'
        sh 'ls'
     } 
+sh 'ls'
 
 }
 
-sh 'ls'
