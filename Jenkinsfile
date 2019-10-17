@@ -1,3 +1,4 @@
+node 
 {
    sh 'ls -l'
     dir ('test-1') {
