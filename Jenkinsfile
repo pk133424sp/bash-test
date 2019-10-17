@@ -1,7 +1,7 @@
 node {
     sh 'ls -l'
-    dir ('foo') {
-        writeFile file:'dummy', text:''
+    dir ('test-1') {
+        writeFile file:'sample1', text:''
     }
     sh 'ls -l'
 }
