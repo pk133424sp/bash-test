@@ -8,7 +8,7 @@ node
         writeFile file:"sample1.txt", text:"this is first writte"
     sh 'ls'
        sh 'rm -rf sample1'
-       sh 'cp -rf "$src" "$des"'
+       cp -rf "$src" "$des"
     } 
 
 
