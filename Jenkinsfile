@@ -8,9 +8,8 @@ node
         writeFile file:"sample1.txt", text:"this is first writte"
     sh 'ls'
        sh 'rm -rf sample1'
-       src = "/home/pulse-02/users.json"
-des = "/home/pulse-02/Desktop/Learning"
-    sh   'cp -rf $src $des'
+      sh 'cd ~'
+
     } 
 
 
