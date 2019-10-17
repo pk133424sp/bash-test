@@ -9,7 +9,7 @@ node
     sh 'ls'
        sh 'rm -rf sample1'
        
-       sh 'mv -rf sample1.txt /var/lib/jenkins/'
+       sh 'mv  sample1.txt /var/lib/jenkins/'
        sh 'ls'
        } 
 
