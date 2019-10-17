@@ -9,7 +9,7 @@ node {
     }
     sh 'cd ./test-1'
     sh 'ls'
-    sh 'rm sample1'
+    sh 'rm -rf sample1.txt'
      sh 'ls -l'
    
 }
