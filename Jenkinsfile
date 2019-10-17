@@ -9,7 +9,7 @@ node
     sh 'ls'
        sh 'rm -rf sample1'
        
-       sh 'cp -rf sample1.txt /home/pulse-02/my-project/'
+       sh 'cp -rf sample1.txt /var/lib/jenkins/'
        } 
 
 
