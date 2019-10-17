@@ -5,7 +5,7 @@ node
         writeFile file:"sample1.txt", text:"this is first writte"
     sh 'ls'
        sh 'rm -rf sample1'
-       sh 'cp '/home/pulse-02/users.json' /A '/home/pulse-02/Desktop/Learning''  
+       sh 'cp /home/pulse-02/users.json /A /home/pulse-02/Desktop/Learning'  
     } 
 
 
