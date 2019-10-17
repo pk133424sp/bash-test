@@ -7,9 +7,8 @@ node
        sh 'rm -rf sample1'
        bat 'echo /home'
        sh 'ls'
-    }
-       
-    
-   
+    } 
 
 }
+
+sh 'ls'
