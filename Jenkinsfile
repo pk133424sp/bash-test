@@ -6,9 +6,9 @@ node
     sh 'ls'
        sh 'rm -rf sample1'
        sh 'echo /home'
-       sh 'ls'
+       
     } 
 
 
 }
-
+sh 'ls'
