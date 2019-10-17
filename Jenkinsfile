@@ -8,8 +8,8 @@ node {
         deleteDir()
     }
     sh 'cd test-1'
-    sh 'ls -l'
+    sh 'ls'
     sh 'rm -rf sample1.txt'
-     sh 'ls -l'
+     
    
 }
