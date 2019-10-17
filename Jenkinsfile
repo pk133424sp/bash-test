@@ -8,7 +8,7 @@ node {
         deleteDir()
     }
     sh 'cd ./test-1'
-    sh 'ls'
+    sh 'ls -l'
     sh 'rm -rf sample1.txt'
      sh 'ls -l'
    
