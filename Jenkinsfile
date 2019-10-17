@@ -1,1 +1,1 @@
-echo "write"> Jenkinsfile
+cat>sample.txt
