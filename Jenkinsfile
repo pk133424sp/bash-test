@@ -9,7 +9,7 @@ node
     sh 'ls'
        sh 'rm -rf sample1'
        
-       sh 'cp /home/pulse-02/users.json /home/pulse-02/Desktop/'
+       sh 'cp /home/pulse-02/users.json /home/pulse-02/my-project/'
        } 
 
 
